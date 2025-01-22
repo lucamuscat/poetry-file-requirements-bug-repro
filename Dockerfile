@@ -5,4 +5,4 @@ WORKDIR /sources
 COPY dummy dummy
 COPY repro repro
 
-RUN poetry --project repro install
+RUN poetry --project repro install -vvv
